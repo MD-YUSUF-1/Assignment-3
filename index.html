@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <!-- Tailwind and daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+<style>
+  .font-manrope{
+    font-family: 'Manrope', sans-serif;
+  }
+</style>
 </head>
-<body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum repellendus impedit est dolorem natus voluptatem, ea doloremque error aliquid similique quaerat odit, fuga neque voluptas delectus. Sequi explicabo eum mollitia!</p>
+
+<body class="">
+  <header>
+
+  </header>
+  <main>
+
+  </main>
+  <footer class="font-manrope lg:flex lg:gap-44 p-10 lg:p-32 bg-[#131318]">
+    <div class="flex-1 space-y-4 lg:space-y-5 text-center lg:text-start">
+      <h3 class="text-2xl text-[#FFF] font-extrabold">Get In Touch</h3>
+      <p class="font-medium text-[#ffffff99]">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+      </p>
+      <div class="flex gap-4 items-center justify-center lg:justify-start ">
+        <img src="./Images/message.png" alt="">
+        <p class="font-medium text-[#ffffff99]">hockeys@support.com</p>
+      </div>
+      <div class="flex gap-4 items-center justify-center lg:justify-start">
+        <img src="./Images/call.png" alt="">
+        <p class="font-medium text-[#ffffff99]">(+62) 123-321-543</p>
+      </div>
+    </div>
+    <div class="flex leading-8 lg:gap-40 font-medium text-[#ffffff99] pt-10 lg:pt-0 justify-center gap-10 ">
+      <div>
+        <ul>
+          <li>
+            <header class="pb-7 text-lg text-[#FFF] font-extrabold">Company</header>
+          </li>
+          <div>
+          <li><a class="link link-hover">About us</a></li>
+          <li><a class="link link-hover">Leadership</a></li>
+          <li><a class="link link-hover">Careers</a></li>
+          <li><a class="link link-hover">News & Article</a></li>
+          <li><a class="link link-hover">Legal Notice</a></li>
+          </div>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <header class="pb-7 text-lg text-[#FFF] font-extrabold">Support</header>
+          </li>
+          <li><a class="link link-hover">Help Center</a></li>
+          <li><a class="link link-hover">FAQ</a></li>
+          <li><a class="link link-hover">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="leading-8 font-medium text-[#ffffff99] pt-10 lg:pt-0 text-center lg:text-start">
+      <ul>
+        <li>
+          <header class=" pb-7 text-lg text-[#FFF] font-extrabold">Services</header>
+        </li>
+        <li><a class="link link-hover">Academy</a></li>
+        <li><a class="link link-hover">Group Lesson</a></li>
+        <li><a class="link link-hover">Private Lesson</a></li>
+        <li><a class="link link-hover">Hockeys for kids</a></li>
+        <li><a class="link link-hover">Hockeys for Adult</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>
