@@ -36,18 +36,97 @@
 </head>
 
 <body class="font-manrope">
-  <header>
+  <header class="container mx-auto">
+    <!-- nav bar starts -->
+    <nav class="lg:px-[130px] px-5">
+      <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a class=" text-xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="font-bold text-[#FF4240]">Home</a></li>
+          <li><a >About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end lg:flax lg:gap-5">
+        <img class="invisible lg:visible" src="./Images/search.png" alt="">
+        <a class="btn border-none text-[#FFF] bg-[#FF4240] px-6">Get Ticket</a>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar ends -->
+
+    <!-- slider banner starts -->
+    <!-- <div>
+      <div class="container mx-auto mt-20 lg:px-[135px] px-5">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full bg-[url('./Images/1.png')] bg-no-repeat">
+            <img src="" class="w-full h-[550px]"/>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-[100px] right-[130px] top-[160px] lg:left-5 lg:right-5 lg:top-1/2 ">
+              <a href="#slide2" class="btn btn-neutral rounded-full">❮</a>
+              <a href="#slide2" class="btn btn-neutral rounded-full" >❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full bg-[url('./Images/player.png') bg-no-repeat]">
+            <img src="" class="w-full h-[550px]"/>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-[100px] right-[130px] top-[160px] lg:left-5 lg:right-5 lg:top-1/2 ">
+              <a href="#slide1" class="btn btn-neutral rounded-full">❮</a>
+              <a href="#slide1" class="btn btn-neutral rounded-full">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div>
+      <div class="container mx-auto lg:px-[135px] px-5">
+        <div class="carousel ">
+          <div id="slide1" class="carousel-item relative max-w-11/12 max-h-[200px] lg:max-w-[1170px] lg:max-h-[550px] mx-auto">
+            <img src="./Images/1.png" class="" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-[100px] right-[130px] top-[160px] lg:left-5 lg:right-5 lg:top-1/2 ">
+              <a href="#slide2" class="btn btn-neutral rounded-full">❮</a>
+              <a href="#slide2" class="btn btn-neutral rounded-full" >❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative max-w-[335px] max-h-[200px] lg:max-w-[1170px] lg:max-h-[550px] mx-auto">
+            <img src="" class="w-full h-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-[100px] right-[130px] top-[160px] lg:left-5 lg:right-5 lg:top-1/2 ">
+              <a href="#slide1" class="btn btn-neutral rounded-full">❮</a>
+              <a href="#slide1" class="btn btn-neutral rounded-full">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- slider banner end -->
 
   </header>
+
   <main class="container mx-auto">
     <!-- Professional section starts -->
     <section>
-      <hr class="border-dashed w-5/6 mx-auto h-[1px] mt-6 lg:mt-24 mb-7 border-[#13131833]">
-      <h1 class=" text-2xl lg:text-4xl font-extrabold text-center mb-6">Professional Hockeys Club</h1>
+      <hr class="border-dashed w-5/6 mx-auto h-[1px] mt-6 lg:mt-20 mb-7 border-[#13131833]">
+      <h1 class=" text-xl lg:text-4xl font-extrabold text-center mb-6">Professional Hockeys Club</h1>
       <p class="font-medium text-[#13131899] mx-10 max-w-[607px] lg:mx-auto text-center">Dit amet consectetur.
         Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       <hr class="border-dashed w-5/6 mx-auto h-[1px] mt-7 mb-6 lg:mb-12 border-[#13131833]">
-      <div class="grid grid-cols-1 gap-y-6 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-0 w-5/6 m-auto mt-8 mb-10 lg:mt-12 lg:mb-28">
+      <div
+        class="grid grid-cols-1 gap-y-6 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-0 w-5/6 m-auto mt-8 mb-10 lg:mt-12 lg:mb-28">
         <div>
           <div class="flex justify-center pb-6">
             <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
